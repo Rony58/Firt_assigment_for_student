@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: block;
+    
+}
+
+
+.fixwidth{
+    width: 1200px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/* Navabar design css code  */
+.navbar{
+    height: 60px;
+    background: #014923;
+}
+.navbar .logo{
+    float: left;
+    text-align: center;
+    width: 40%;
+    
+}
+.navbar .logo img{
+    margin-top: 4px;
+    cursor: pointer;
+}
+.navbar .menu{
+    float: right;
+    text-align: left;
+    width: 60%;
+    height: auto;
+}
+
+.navbar .menu ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 20px;
+}
+.navbar .menu ul li{
+    display: inline-block;
+    padding-left: 40px;
+
+}
+.navbar .menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .4s;
+}
+.navbar .menu ul li a:hover{
+    color: #14c474;
+}
+/* here banner design css code */
+
+.banner{
+    background-image: url(./cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    /* padding-top: 300px;
+    height: 20px; */
+}
+.banner .bannertxt{
+      padding-top: 120px;
+}
+
+.bannertxt h1{
+    padding-bottom: 15px;
+    background: #14c47597;
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.bannertxt h4{
+    width: 450px;
+    margin: auto;
+    background: #0149238d;
+    padding: 15px;
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+ /* here you find about section css code  */
+ .aboutSection{
+    height: 250px;
+    background: #f0e7e7;
+ }
+ .aboutSection .abouttxt{
+    padding-top: 40px;
+    width: 800px;
+    margin: auto;
+ }
+ .aboutSection .abouttxt h1{
+    border-bottom: 4px solid black;
+    padding: 10px;
+ }
+ .aboutSection .abouttxt p{
+     padding-top: 20px;
+ }
+
+ /* here you find service section css code  */
+
+ .service{
+    margin-left: 200px;
+ }
+ .service .card{
+    width: 250px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px 0;
+    cursor: pointer;
+    float: left;
+    margin-left: 35px;
+    transition: .4s;
+   
+ }
+ .service .card:hover{
+    background: black;
+    color: wheat;
+ }
+ .service .card img{
+    background: #14c474;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -45px;
+    
+ }
+ .service .card .text{
+    margin-top: 20px;
+ }
+ .service .card .text h2{}
+ .service .card .text p{
+    margin-top: 15px;
+ }
+
+  /* here you find Blog section css code  */
+  .blog{
+    width: 600px;
+    margin-top: 30px;
+   
+  }
+  .blog .blog-left{
+    float: left;
+    width: 70%;
+    padding: 20px;
+  }
+  .blog .blog-left .blogitem{
+    padding: 20px;
+  }
+  .blog .blog-left .blogitem img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+  }
+  .blog .blog-left .blogitem p{}
+
+  .blog .blog-notificatio{
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+   
+  }
+  .blog .blog-notificatio h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  .blog .blog-notificatio ol{
+    margin-top: 15px;
+  }
+  .blog .blog-notificatio ol li{
+    padding-top: 15px;
+    list-style: none;
+    font-size: 18px;
+    border: 1px solid gray;
+    padding:10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+  }
+
+  .blog .blog-notificatio ol li a{
+    text-decoration: none;
+    color: black;
+  }
+  /* here footer section css code  */
+  .footer{
+     background: #014923;
+     width: 100%;
+     height: auto;
+  }
+  .footer .leftfotter{
+     float: left;
+     width: 50%;
+     padding-top: 25px;
+  }
+  .footer .leftfotter p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  .footer .right-footer{
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer .right-footer ul{
+    list-style: none;
+    margin-left: 270px;
+  }
+  .footer .right-footer ul li{
+    display: inline-block;
+    padding-left: 30px;
+  }
+  .footer .right-footer ul li a{
+    text-decoration: none;
+  }
+  .footer .right-footer ul li a img{}
